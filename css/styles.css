@@ -187,18 +187,18 @@ button {
   |============================
 */
 .section-card-two
-.card-two-list
+.card-two-list .list {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2px;
+    letter-spacing: 0.02em;
+    color: var(--logo-color-dark);
+  }
 .card-two-item
 .list
 .card-two-link
-.card-two-title {
-        font-family: var(--primary-font);
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2px;
-        letter-spacing: 0.02em;
-        color: var(--logo-color-dark);
-}
+.card-two-title 
 .text-two {
     font-family: var(--primary-font);
     font-style: normal;
@@ -259,14 +259,7 @@ button {
 .hero-btn {
         font-family: var(--primary-font);
         background: #4D5AE5;
-        position: absolute;
-          width: 169px;
-          height: 56px;
-          left: 636px;
-          top: 428px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-}
+      }
 
 /**
   |============================
