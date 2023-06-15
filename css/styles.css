@@ -27,6 +27,9 @@ button {
   list-style: none;
 } 
 
+:root {
+  --logo-color: #4D5AE5;
+}
 
 /**
   |============================
@@ -44,11 +47,13 @@ button {
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        align-items: center;
+        
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4D5AE5;
-}
+        text-decoration: none;
+        color: var (--logo-color);
+          };
+
 
 .header-logo-color {
     font-family: 'Raleway' ;
