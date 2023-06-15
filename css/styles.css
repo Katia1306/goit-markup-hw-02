@@ -8,6 +8,7 @@
 --logo-color-dark: #2e2f42;
 
 
+
 }
 
 
@@ -84,13 +85,18 @@ button {
 .header-item
 
 .header-link {
-    
+    font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        color: #2E2F42;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        color: var(--logo-color-dark);
 }
+.header-link:hover { color: #404bbf; }
+.header-link:focus { color: #404bbf ;}
+.link
 
-.address 
+.address { font-style: normal;}
 
 .address-list
 
@@ -100,8 +106,12 @@ button {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.02em;
         color: #434455;
 }
+.address-link:hover { color: #404bbf;}
+.address-link:focus { color: #404bbf;}
+.list
 
 /**
   |============================
@@ -125,7 +135,7 @@ button {
    cursor: pointer;
    border: 1px solid #000000;
    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
-   
+
 .button-link:hover { color: #FFFFFF;
   background: #404BBF;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
