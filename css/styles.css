@@ -1,3 +1,15 @@
+:root {
+  /* Font */
+--primary-font: Roboto, sans-serif;
+--secondary-font: Raleway, sans-serif;
+
+/* Colors */
+--logo-color: #4d5ae5;
+--logo-color-dark: #2e2f42;
+
+}
+
+
 /* Common styles */
 body {
     font-family: Roboto, sans-serif;
@@ -27,9 +39,7 @@ button {
   list-style: none;
 } 
 
-:root {
-  --logo-color: #4D5AE5;
-}
+
 
 /**
   |============================
@@ -40,10 +50,12 @@ button {
 
 .header 
 
-.header-nav 
+.header-nav {
+  list-style: none;
+}
 
 .header-logo .link{
-        font-family: "Raleway", sans-serif;
+        font-family: var(--secondary-font);
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
@@ -56,14 +68,14 @@ button {
 
 
 .header-logo-color {
-    font-family: 'Raleway' ;
+    font-family: var(--secondary-font) ;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
          align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2E2F42;
+        color: var(--logo-color-dark);
 }
 
 .header-list
