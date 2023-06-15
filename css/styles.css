@@ -343,7 +343,7 @@ button {
   |============================
 */
 
-.footer { background-color: var(--logo-color-dark);}
+.footer 
 
 .footer-logo
 {
@@ -369,4 +369,5 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--cloud); }
+    color: var(--cloud); 
+  background-color: var(--logo-color-dark);}
