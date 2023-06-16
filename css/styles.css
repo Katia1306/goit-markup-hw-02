@@ -122,13 +122,15 @@ button {
   | Portfolio styles
   |============================
 */
+.main {
+    background-color: var(--cloud);
+  }
+.portfolio-section
+.portfolio-list 
 
-.portfolio-section {
-  background-color: var(--cloud);
-}
-.portfolio-list { background-color: var(--white);}
-
-.button-link
+.button-link {
+    background-color: var(--white);
+  }
    
 .btn-text { 
   font-family: var(--primary-font);
