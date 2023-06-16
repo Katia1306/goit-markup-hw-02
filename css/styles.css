@@ -86,8 +86,8 @@ button {
     color: var(--logo-color-dark);
   }
 
-.header-list .link:hover { color: #404bbf;}
-.header-list .link:focus { color: #404bbf;}
+.header-list:hover,
+.header-list:focus { color: var(--violet);}
 
 .header-item
 
@@ -293,7 +293,7 @@ button {
   |============================
 */
 
-.activity-section
+.activity-section { background-color: var(--white);}
 
 .activity-title {
     font-family: var(--primary-font);
@@ -319,12 +319,14 @@ button {
   |============================
 */
 
-.team-section
+.team-section { background-color: var(--cloud);}
 
 .team-title { 
         font-family: var(--primary-font);
         font-weight: 700;
         font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
         
         letter-spacing: 0.02em;
         text-transform: capitalize;
