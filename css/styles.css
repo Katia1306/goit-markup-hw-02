@@ -57,17 +57,16 @@ button {
 }
 
 .logo {
-        font-family: "Raleway",
-          sans-serif;
+        font-family: "Raleway", sans-serif;
         
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.17;
+        
         
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
-        color: var (--logo-color);
+        color: var(--logo-color);
           }
 
 
@@ -79,7 +78,7 @@ button {
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+   
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--logo-color-dark);
@@ -101,7 +100,7 @@ button {
     font-family: var(--primary-font);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    
     letter-spacing: 0.02em;
     color: #434455;
   }
@@ -123,43 +122,39 @@ button {
   font-family: var(--primary-font);
    font-weight: 500;
    font-size: 16px;
-   line-height: 1.5;
+   
    
    letter-spacing: 0.04em;
    color: var(--logo-color);
    background: var(--cloud);
    cursor: pointer;
-   border: 1px solid #000000;
-   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+   }
 
 .btn-text:hover { color: var(--white);
   background: #404BBF;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;}
+  
+  }
 
 .btn-text:focus {
             color: var(--cloud);
             background: #404BBF;
-            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-            border-radius: 4px;
-
-}
+            }
 
 /**
   |============================
   | Project card 1 styles
   |============================
 */
-.section-card-one
-.card-one-list
+.projects-list
+
 .card-one-item
-.list
+
 .card-one-link
 .card-one-title { 
         font-family: var(--primary-font);
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.2px;
+       
         letter-spacing: 0.02em;
         color: var(--logo-color-dark);
 }
@@ -167,7 +162,6 @@ button {
           font-family: var(--primary-font);
           font-weight: 400;
           font-size: 16px;
-          line-height: 1.5;
           letter-spacing: 0.02em;
           color: #434455;
 }
@@ -177,24 +171,22 @@ button {
   | Project card 2 styles
   |============================
 */
-.section-card-two
-.card-two-list .list {
+.card-two-item
+.card-two-link {
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2px;
+    
     letter-spacing: 0.02em;
     color: var(--logo-color-dark);
   }
-.card-two-item
-.list
-.card-two-link
+
 .card-two-title 
 .text-two {
     font-family: var(--primary-font);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+   
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -204,16 +196,16 @@ button {
   | Project card 3 styles
   |============================
 */
-.section-card-three
-.card-three-list
+
+
 .card-three-item
-.list
+
 .card-three-link
 .card-three-title { 
         font-family: var(--primary-font);
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.2px;
+        
         letter-spacing: 0.02em;
         color: var(--logo-color-dark);
 }
@@ -221,7 +213,7 @@ button {
         font-family: var(--primary-font);
          font-weight: 400;
          font-size: 16px;
-         line-height: 1.5;
+         
          letter-spacing: 0.02em;
          color: #434455;
 }
@@ -233,20 +225,19 @@ button {
   |============================
 */
 
-.hero-section { background-color: var(--logo-color-dark)}
+.section-hero { background-color: var(--logo-color-dark)}
 
 .hero-title { 
         font-family: var(--primary-font);
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07;
         letter-spacing: 0.02em;
         color: var(--white);
 }
 
-.hero-btn {
+.hero-button {
         font-family: var(--primary-font);
-        background: #4D5AE5;
+        background: var(--logo-color);
       }
 
 /**
@@ -265,7 +256,7 @@ button {
       font-family: var(--primary-font);
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.2;
+        
         letter-spacing: 0.02em;
     
         color: var(--logo-color-dark);
@@ -274,7 +265,7 @@ button {
   font-family: var(--primary-font);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+   
     letter-spacing: 0.02em;
     color: #434455;
 
@@ -292,7 +283,7 @@ button {
     font-family: var(--primary-font);
       font-weight: 700;
       font-size: 36px;
-      line-height: 1.11;
+      
       letter-spacing: 0.02em;
       text-transform: capitalize;
       color: var(--logo-color-dark);
@@ -316,7 +307,7 @@ button {
         font-family: var(--primary-font);
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11;
+        
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--logo-color-dark);
@@ -341,22 +332,21 @@ button {
         font-family: 'Raleway',sans-serif;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.17;
+        
         
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--logo-color);}
 
 .logo-down {
-    
-         color: var(--cloud);
+     color: var(--cloud);
 }
 
 .footer-text { 
   font-family: var(--primary-font);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    
     letter-spacing: 0.02em;
     color: var(--cloud); 
   }
