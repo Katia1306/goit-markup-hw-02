@@ -124,9 +124,9 @@ button {
 */
 
 .portfolio-section {
-  background-color: #f4f4fd;
+  background-color: var(--cloud);
 }
-.portfolio-list { background-color: #FFFFFF;}
+.portfolio-list { background-color: var(--white);}
 
 .button-link
    
@@ -324,7 +324,7 @@ button {
 .team-section {background-color: var(--cloud);}
 
 .team-title { 
-        font-family: inherit;
+        
         font-weight: 500;
         font-size: 36px;
         line-height: 1.11;
@@ -338,8 +338,7 @@ button {
 }
 .team-item
 .team-worker {
-  font-family: var(--primary-font);
-    font-style: normal;
+  
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -349,8 +348,7 @@ button {
 }
 
 .team-text {
-  font-family: var(--primary-font);
-    font-style: normal;
+  
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
