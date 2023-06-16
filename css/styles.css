@@ -10,6 +10,7 @@
 --cloud: #f4f4fd;
 --ocean: #13719c;
 --violet:#404BBF;
+--slate: #434455;
 
 }
 
@@ -94,24 +95,26 @@ button {
 
 
 
-.address { font-style: normal;}
+.address 
 
 .address-list
 
-.address-item 
 
-.address-link { 
+
+.address-item { 
     font-family: var(--primary-font);
     font-weight: 400;
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
-    
     letter-spacing: 0.02em;
-    color: #434455;
-  }
-.address-link:hover,
-.address-link:focus { color: var(--violet);}
-.list
+    color: var(--slate);
+    
+    }
+
+.address-item:hover,
+.address-item:focus { color: var(--violet);}
+
 
 /**
   |============================
@@ -280,9 +283,9 @@ button {
   font-family: var(--primary-font);
     font-weight: 400;
     font-size: 16px;
-   
+   line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--slate);
 
 }
 
@@ -318,7 +321,7 @@ button {
   |============================
 */
 
-.team-section { background-color: var(--cloud);}
+.team-section 
 
 .team-title { 
         font-family: var(--primary-font);
@@ -332,11 +335,32 @@ button {
         color: var(--logo-color-dark);
 }
 
-.team-list
+.team-list {
+    background-color: var(--cloud);
+  }
 
 .team-item
+.team-worker {
+  font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--logo-color-dark);
+}
 
-.list
+.team-text {
+  font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
 
 /**
   |============================
@@ -344,7 +368,7 @@ button {
   |============================
 */
 
-.footer {background-color: var(--logo-color-dark);}
+.footer 
 
 .footer-logo{
 
@@ -356,7 +380,8 @@ button {
         
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--logo-color);}
+        color: var(--logo-color);
+      background-color: var(--logo-color-dark);}
 
 .logo-down {
      color: var(--cloud);
