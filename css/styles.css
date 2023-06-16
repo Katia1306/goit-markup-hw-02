@@ -157,7 +157,6 @@ button {
 }
 
 .card-one-item
-
 .card-one-link
 .card-one-title { 
         font-family: var(--primary-font);
@@ -184,7 +183,6 @@ button {
 
 .card-two-item
 .card-two-link 
-
 .card-two-title {
         font-family: var(--primary-font);
         font-weight: 500;
@@ -210,7 +208,6 @@ button {
 
 
 .card-three-item
-
 .card-three-link
 .card-three-title { 
            font-family: var(--primary-font);
