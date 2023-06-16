@@ -299,9 +299,9 @@ button {
 
 .activity-title {
     font-family: var(--primary-font);
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 1.11;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
      text-align: center;
       
       letter-spacing: 0.02em;
@@ -321,7 +321,7 @@ button {
   |============================
 */
 
-.team-section 
+.team-section {background-color: var(--cloud);}
 
 .team-title { 
         font-family: var(--primary-font);
@@ -336,8 +336,9 @@ button {
 }
 
 .team-list {
-    background-color: var(--cloud);
-  }
+  background-color: var(--white);
+}
+  
 
 .team-item
 .team-worker {
@@ -368,7 +369,7 @@ button {
   |============================
 */
 
-.footer 
+.footer {background-color: #2e2f42;}
 
 .footer-logo{
 
@@ -381,7 +382,7 @@ button {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--logo-color);
-      background-color: var(--logo-color-dark);}
+      }
 
 .logo-down {
      color: var(--cloud);
@@ -391,6 +392,7 @@ button {
   font-family: var(--primary-font);
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
     
     letter-spacing: 0.02em;
     color: var(--cloud); 
