@@ -91,10 +91,6 @@ button {
 
 .header-item:hover,
 .header-item { color: var(--violet);}
-
-
-
-
 .address 
 
 .address-list
@@ -112,8 +108,8 @@ button {
     
     }
 
-.address-item:hover,
-.address-item:focus { color: var(--violet);}
+.address:hover,
+.address:focus { color: var(--violet);}
 
 
 /**
