@@ -59,9 +59,10 @@ button {
 
 .logo {
         font-family: "Raleway", sans-serif;
-        line-height: 1.17;
+        
         font-weight: 800;
         font-size: 18px;
+        line-height: 1.17;
         
         
         letter-spacing: 0.03em;
@@ -75,7 +76,7 @@ button {
         color: var(--logo-color-dark);
 }
 
-.link {
+.header-item {
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
@@ -87,10 +88,10 @@ button {
     color: var(--logo-color-dark);
   }
 
-.link:hover,
-.link:focus { color: var(--violet);}
+.header-item:hover,
+.header-item { color: var(--violet);}
 
-.header-item
+
 
 
 .address { font-style: normal;}
