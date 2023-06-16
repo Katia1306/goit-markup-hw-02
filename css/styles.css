@@ -122,15 +122,17 @@ button {
   | Portfolio styles
   |============================
 */
-.main {
+
+.portfolio-section {
     background-color: var(--cloud);
   }
-.portfolio-section
+  .list {
+      background-color: var(--white);
+    }
+
 .portfolio-list 
 
-.button-link {
-    background-color: var(--white);
-  }
+.button-link 
    
 .btn-text { 
   font-family: var(--primary-font);
@@ -169,12 +171,10 @@ button {
       color: var(--logo-color-dark);
 }
 .text-one { 
-          
-          font-weight: 400;
           font-size: 16px;
           line-height: 1.5;
           letter-spacing: 0.02em;
-          color: #434455;
+          color: var(--slate);
 }
 
 /**
@@ -194,12 +194,10 @@ button {
         color: var(--logo-color-dark);
 }
 .text-two {
-   
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--slate);
 }
 
 /**
@@ -220,12 +218,10 @@ button {
             color: var(--logo-color-dark);
 }
 .text-three {
-          
-          font-weight: 400;
           font-size: 16px;
           line-height: 1.5;
           letter-spacing: 0.02em;
-          color: #434455;
+          color: var(--slate);
 }
 
 
