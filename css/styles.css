@@ -91,7 +91,10 @@ button {
 
 .header-item:hover,
 .header-item { color: var(--violet);}
-.address 
+
+.address {
+  font-style: normal;
+}
 
 .address-list
 
@@ -100,16 +103,16 @@ button {
 .address-item { 
     font-family: var(--primary-font);
     font-weight: 400;
-    font-style: normal;
+    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: var(--logo-color-dark);
     
     }
 
-.address:hover,
-.address:focus { color: var(--violet);}
+.address-item:hover,
+.address-item:focus { color: var(--violet);}
 
 
 /**
@@ -118,7 +121,9 @@ button {
   |============================
 */
 
-.section-portfolio
+.portfolio-section{
+  background-color: var(--cloud);
+}
 .portfolio-list
 .btn-text
 .button-link  {
@@ -172,6 +177,9 @@ button {
   | Project card 2 styles
   |============================
 */
+.projects-list {
+  background-color: var(--white);
+}
 .card-two-item
 .card-two-link {
     font-family: var(--primary-font);
