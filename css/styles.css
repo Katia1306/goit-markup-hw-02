@@ -124,11 +124,11 @@ button {
 */
 
 .portfolio-section{
-  background-color: var(--cloud);
+  background-color: #f4f4fd;
 }
-.portfolio-list
+.portfolio-list { background-color: #FFFFFF;}
+
 .button-link
-.btn-text
   {
   font-family: var(--primary-font);
    font-weight: 500;
@@ -140,7 +140,7 @@ button {
    background: var(--cloud);
    cursor: pointer;
    }
-
+.btn-text { line-height: 1.5;}
 .btn-text:hover,
 .btn-text:focus {
                   color: var(--white);
@@ -165,7 +165,7 @@ button {
         font-family: var(--primary-font);
         font-weight: 500;
         font-size: 20px;
-       line-height: 1.2;
+       line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--logo-color-dark);
 }
@@ -185,18 +185,18 @@ button {
 */
 
 .card-two-item
-.card-two-link {
-    font-family: var(--primary-font);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--logo-color-dark);
-  }
+.card-two-link 
 
-.card-two-title 
+.card-two-title {
+      font-family: var(--primary-font);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--logo-color-dark);
+}
 .text-two {
-    font-family: var(--primary-font);
+  font-family: var(--primary-font);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
@@ -215,20 +215,20 @@ button {
 
 .card-three-link
 .card-three-title { 
-        font-family: var(--primary-font);
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--logo-color-dark);
+          font-family: var(--primary-font);
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--logo-color-dark);
 }
 .text-three {
         font-family: var(--primary-font);
-         font-weight: 400;
-         font-size: 16px;
-         line-height: 1.2;
-         letter-spacing: 0.02em;
-         color: #434455;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 1.2;
+          letter-spacing: 0.02em;
+          color: #434455;
 }
 
 
