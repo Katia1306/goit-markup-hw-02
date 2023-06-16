@@ -186,7 +186,7 @@ button {
 .card-two-link 
 
 .card-two-title {
-      font-family: var(--primary-font);
+        font-family: var(--primary-font);
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -194,7 +194,7 @@ button {
         color: var(--logo-color-dark);
 }
 .text-two {
-  font-family: var(--primary-font);
+   font-family: var(--primary-font);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -213,7 +213,7 @@ button {
 
 .card-three-link
 .card-three-title { 
-          font-family: var(--primary-font);
+           font-family: var(--primary-font);
             font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
@@ -221,7 +221,7 @@ button {
             color: var(--logo-color-dark);
 }
 .text-three {
-        font-family: var(--primary-font);
+          font-family: var(--primary-font);
           font-weight: 400;
           font-size: 16px;
           line-height: 1.5;
@@ -331,7 +331,7 @@ button {
 
 .team-title { 
         font-family: var(--primary-font);
-        font-weight: 700;
+        font-weight: 500;
         font-size: 36px;
         line-height: 1.11;
         text-align: center;
