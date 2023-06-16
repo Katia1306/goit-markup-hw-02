@@ -9,6 +9,7 @@
 --white: #FFFFFF;
 --cloud: #f4f4fd;
 --ocean: #13719c;
+--violet:#404BBF;
 
 }
 
@@ -58,7 +59,7 @@ button {
 
 .logo {
         font-family: "Raleway", sans-serif;
-        
+        line-height: 1.17;
         font-weight: 800;
         font-size: 18px;
         
@@ -74,10 +75,11 @@ button {
         color: var(--logo-color-dark);
 }
 
-.header-list .link {
+.header-list {
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
+    
    
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -100,12 +102,13 @@ button {
     font-family: var(--primary-font);
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
     
     letter-spacing: 0.02em;
     color: #434455;
   }
-.address-link:hover { color: #404bbf;}
-.address-link:focus { color: #404bbf;}
+.address-link:hover,
+.address-link:focus { color: var(--violet);}
 .list
 
 /**
@@ -131,13 +134,13 @@ button {
    }
 
 .btn-text:hover { color: var(--white);
-  background: #404BBF;
+  background: var(--violet);
   
   }
 
 .btn-text:focus {
             color: var(--cloud);
-            background: #404BBF;
+            background: var(--violet);
             }
 
 /**
@@ -232,13 +235,26 @@ button {
         font-weight: 700;
         font-size: 56px;
         letter-spacing: 0.02em;
+        line-height: 1.07;
+        text-align: center;
         color: var(--white);
 }
 
 .hero-button {
         font-family: var(--primary-font);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
         background: var(--logo-color);
       }
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--violet);
+}      
+
 
 /**
   |============================
@@ -283,6 +299,8 @@ button {
     font-family: var(--primary-font);
       font-weight: 700;
       font-size: 36px;
+      line-height: 1.11;
+     text-align: center;
       
       letter-spacing: 0.02em;
       text-transform: capitalize;
@@ -332,6 +350,7 @@ button {
         font-family: 'Raleway',sans-serif;
         font-weight: 800;
         font-size: 18px;
+        line-height: 1.17;
         
         
         letter-spacing: 0.03em;
