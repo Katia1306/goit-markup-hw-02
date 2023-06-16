@@ -89,8 +89,8 @@ button {
     color: var(--logo-color-dark);
   }
 
-.header-item:hover,
-.header-item:focus { color: #404BBF;}
+.header-link:hover,
+.header-link:focus { color: #404BBF;}
 
 .address {
   font-style: normal;
@@ -111,10 +111,8 @@ button {
     
     }
 
-.address-item:hover {
-    color: #404BBF;
-  }
-.address-item:focus {
+.address-link:hover,
+.address-link:focus {
     color: #404BBF;
 }
 
