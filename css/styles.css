@@ -75,10 +75,11 @@ button {
         color: var(--logo-color-dark);
 }
 
-.header-list {
+.link {
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     
    
     letter-spacing: 0.02em;
@@ -86,8 +87,8 @@ button {
     color: var(--logo-color-dark);
   }
 
-.header-list:hover,
-.header-list:focus { color: var(--violet);}
+.link:hover,
+.link:focus { color: var(--violet);}
 
 .header-item
 
