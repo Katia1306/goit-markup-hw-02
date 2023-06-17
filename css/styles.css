@@ -132,7 +132,7 @@ button {
    background-color: var(--white);
  }
 
-.button-link 
+
    
 .btn-text { 
   font-family: var(--primary-font);
@@ -160,6 +160,14 @@ button {
 .projects-list {
   background-color: var(--white);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
 
 .card-one-item
 .card-one-link
@@ -172,11 +180,11 @@ button {
       color: var(--logo-color-dark);
 }
 .text-one { 
-          font-style: normal;
-          font-size: 16px;
-          line-height: 1.5;
-          letter-spacing: 0.02em;
-          color: var(--slate);
+      font-style: normal;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--slate);
 }
 
 /**
@@ -188,12 +196,12 @@ button {
 .card-two-item
 .card-two-link 
 .card-two-title {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--logo-color-dark);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--logo-color-dark);
 }
 .text-two {
     font-style: normal;
@@ -213,19 +221,19 @@ button {
 .card-three-item
 .card-three-link
 .card-three-title { 
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            color: var(--logo-color-dark);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--logo-color-dark);
 }
 .text-three {
-          font-style: normal;
-          font-size: 16px;
-          line-height: 1.5;
-          letter-spacing: 0.02em;
-          color: var(--slate);
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
 }
 
 
@@ -269,12 +277,6 @@ button {
   |============================
 */
 
-.features-section
-
-.features-list
-
-.features-item
-
 .features-title {
       font-family: var(--primary-font);
       font-weight: 500;
@@ -304,8 +306,8 @@ button {
 .activity-title {
       text-align: center;
       font-weight: 500;
-      font-size: 20px;
-      line-height: 1.2;
+      font-size: 36px;
+      line-height: 1.11;
       letter-spacing: 0.02em;
       text-transform: capitalize;
       color: var(--logo-color-dark);
@@ -335,10 +337,10 @@ button {
         text-transform: capitalize;
         color: var(--logo-color-dark);
 }
-.team-list {
+.team-item {
   background-color: var(--white);
 }
-.team-item
+
 .team-worker {
   
     font-weight: 500;
