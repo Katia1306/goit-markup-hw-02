@@ -171,7 +171,9 @@ h6 {
 
 .card-one-item
 .card-one-link
-.card-one-title { 
+.card-one-title,
+.card-two-title,
+.card-three-title { 
       font-style: normal; 
       font-weight: 500;
       font-size: 20px;
@@ -179,7 +181,10 @@ h6 {
       letter-spacing: 0.02em;
       color: var(--logo-color-dark);
 }
-.text-one { 
+.text-one,
+.text-two,
+.text-three
+ { 
       font-style: normal;
       font-size: 16px;
       line-height: 1.5;
@@ -195,22 +200,7 @@ h6 {
 
 .card-two-item
 .card-two-link 
-.card-two-title {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--logo-color-dark);
-}
-.text-two {
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate);
-}
-
+ 
 /**
   |============================
   | Project card 3 styles
@@ -220,21 +210,7 @@ h6 {
 
 .card-three-item
 .card-three-link
-.card-three-title { 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--logo-color-dark);
-}
-.text-three {
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate);
-}
+ 
 
 
 /**
@@ -282,8 +258,8 @@ h6 {
       font-weight: 500;
       font-size: 20px;
       letter-spacing: 0.02em;
-    
-        color: var(--logo-color-dark);
+      line-height: 1.2;
+      color: var(--logo-color-dark);
 }
 .feat-text {
     font-family: var(--primary-font);
@@ -326,7 +302,7 @@ h6 {
   |============================
 */
 
-.team-section {background-color: var(--cloud);}
+.section-team {background-color: var(--cloud);}
 
 .team-item {
   background-color: var(--white);
