@@ -162,9 +162,8 @@ button {
 }
   
 
-.card-one-title,
-.card-two-title,
-.card-three-title { 
+.card-title 
+{ 
       font-style: normal; 
       font-weight: 500;
       font-size: 20px;
@@ -173,9 +172,8 @@ button {
       text-align: center;
       color: var(--logo-color-dark);
 }
-.text-one,
-.text-two,
-.text-three { 
+.card-text
+    { 
       font-style: normal;
       font-size: 16px;
       line-height: 1.5;
