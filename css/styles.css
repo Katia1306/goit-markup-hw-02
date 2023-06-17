@@ -300,10 +300,8 @@ h6 {
   | Activity styles
   |============================
 */
-
-.activity-section { background-color: var(--white);}
-
-.activity-title {
+.activity-title,
+.team-title {
       text-align: center;
       font-weight: 500;
       font-size: 36px;
@@ -311,6 +309,9 @@ h6 {
       letter-spacing: 0.02em;
       text-transform: capitalize;
       color: var(--logo-color-dark);
+}
+.activity-section {
+  background-color: var(--white);
 }
 
 .activity-list
@@ -327,16 +328,6 @@ h6 {
 
 .team-section {background-color: var(--cloud);}
 
-.team-title { 
-        text-align: center;
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 1.11;
-        
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: var(--logo-color-dark);
-}
 .team-item {
   background-color: var(--white);
 }
