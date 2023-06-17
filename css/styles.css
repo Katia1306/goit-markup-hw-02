@@ -128,7 +128,7 @@ button {
   }
 
 
-.portfolio-list  {
+.button-list  {
    background-color: var(--white);
  }
 
@@ -162,15 +162,11 @@ button {
 }
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
-  text-align: center;
+h3
+  { text-align: center;
+ 
 }
 
-.card-one-item
-.card-one-link
 .card-one-title,
 .card-two-title,
 .card-three-title { 
@@ -252,6 +248,9 @@ h6 {
   | Features styles
   |============================
 */
+.section-features {
+  background-color: var(--logo-color-dark) ;
+}
 
 .features-title {
       font-family: var(--primary-font);
