@@ -158,14 +158,9 @@ button {
 */
 
 .projects-list {
-  background-color: var(--white);
+    background-color: var(--white);
 }
-h1,
-h2,
-h3
-  { text-align: center;
- 
-}
+  
 
 .card-one-title,
 .card-two-title,
@@ -175,6 +170,7 @@ h3
       font-size: 20px;
       line-height: 1.2;
       letter-spacing: 0.02em;
+      text-align: center;
       color: var(--logo-color-dark);
 }
 .text-one,
@@ -245,7 +241,7 @@ h3
   |============================
 */
 .section-features {
-  background-color: var(--logo-color-dark) ;
+  background-color: var(--logo-color-dark);
 }
 
 .features-title {
@@ -297,7 +293,9 @@ h3
   |============================
 */
 
-.section-team {background-color: var(--cloud);}
+.section-team { 
+  background-color: var(--cloud);
+}
 
 .team-item {
   background-color: var(--white);
@@ -329,7 +327,7 @@ h3
   |============================
 */
 
-.footer {background-color: #2e2f42;}
+.footer { background-color: #2e2f42;}
 
 .footer-logo{
 
