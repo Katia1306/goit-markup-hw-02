@@ -271,6 +271,9 @@ button {
   letter-spacing: 0.02em;
   color: var(--logo-color-dark);
 }
+.team-item {
+  background-color: #FFFFFF;
+}
 
 .team-text {
   font-weight: 400;
