@@ -60,12 +60,9 @@ button {
 
 .logo {
         font-family: "Raleway", sans-serif;
-        
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        
-        
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
@@ -103,12 +100,10 @@ button {
 .address-item { 
     font-family: var(--primary-font);
     font-weight: 400;
-    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
-    
     }
 
 .address-link:hover,
@@ -135,18 +130,18 @@ button {
 
    
 .btn-text { 
-  font-family: var(--primary-font);
-  font-size: 16px;
-  color: var(--logo-color);
-  background: var(--cloud);
-  cursor: pointer;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  line-height: 1.5;}
+   font-family: var(--primary-font);
+   font-size: 16px;
+   color: var(--logo-color);
+   background: var(--cloud);
+   cursor: pointer;
+   font-weight: 500;
+   letter-spacing: 0.04em;
+   line-height: 1.5;}
 .btn-text:hover,
 .btn-text:focus {
-                  color: var(--white);
-                  background: var(--violet); }
+    color: var(--white);
+    background: var(--violet); }
                   
   
   
@@ -193,11 +188,6 @@ button {
   | Project card 3 styles
   |============================
 */
-
-
-
- 
-
 
 /**
   |============================
@@ -279,12 +269,6 @@ button {
   background-color: var(--white);
 }
 
-.activity-list
-
-.activity-item
-
-.activity-img
-
 /**
   |============================
   | Team styles
@@ -295,12 +279,7 @@ button {
   background-color: var(--cloud);
 }
 
-.team-item {
-  background-color: var(--white);
-}
-
 .team-worker {
-  
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -310,7 +289,6 @@ button {
 }
 
 .team-text {
-  
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -318,6 +296,8 @@ button {
     letter-spacing: 0.02em;
     color: var(--slate);
 }
+
+
 
 /**
   |============================
@@ -328,13 +308,10 @@ button {
 .footer { background-color: #2e2f42;}
 
 .footer-logo{
-
         font-family: 'Raleway',sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        
-        
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--logo-color);
@@ -345,11 +322,10 @@ button {
 }
 
 .footer-text { 
-  font-family: var(--primary-font);
+    font-family: var(--primary-font);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    
     letter-spacing: 0.02em;
     color: var(--cloud); 
   }
